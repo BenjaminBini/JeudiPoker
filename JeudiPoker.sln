@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeudiPoker", "JeudiPoker\JeudiPoker.csproj", "{3FCD8964-B3F0-4787-9B11-A87539489F5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeudiPoker.Web", "JeudiPoker.Web\JeudiPoker.Web.csproj", "{67AF2855-0DDF-4580-99E9-7F1EBDB82844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeudiPoker.Data", "JeudiPoker.Data\JeudiPoker.Data.csproj", "{EE2AD8F3-8341-4393-B49C-5DCAE21F90D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeudiPoker.Model", "JeudiPoker.Model\JeudiPoker.Model.csproj", "{84D44690-2F8A-4CCD-BAF4-6FFABCBE19FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeudiPoker.Service", "JeudiPoker.Service\JeudiPoker.Service.csproj", "{9E3E8354-4175-4D69-B493-E03CA1C4CBBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FCD8964-B3F0-4787-9B11-A87539489F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FCD8964-B3F0-4787-9B11-A87539489F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FCD8964-B3F0-4787-9B11-A87539489F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FCD8964-B3F0-4787-9B11-A87539489F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AF2855-0DDF-4580-99E9-7F1EBDB82844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AF2855-0DDF-4580-99E9-7F1EBDB82844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AF2855-0DDF-4580-99E9-7F1EBDB82844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AF2855-0DDF-4580-99E9-7F1EBDB82844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2AD8F3-8341-4393-B49C-5DCAE21F90D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2AD8F3-8341-4393-B49C-5DCAE21F90D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2AD8F3-8341-4393-B49C-5DCAE21F90D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2AD8F3-8341-4393-B49C-5DCAE21F90D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D44690-2F8A-4CCD-BAF4-6FFABCBE19FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D44690-2F8A-4CCD-BAF4-6FFABCBE19FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D44690-2F8A-4CCD-BAF4-6FFABCBE19FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D44690-2F8A-4CCD-BAF4-6FFABCBE19FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3E8354-4175-4D69-B493-E03CA1C4CBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3E8354-4175-4D69-B493-E03CA1C4CBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3E8354-4175-4D69-B493-E03CA1C4CBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3E8354-4175-4D69-B493-E03CA1C4CBBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
